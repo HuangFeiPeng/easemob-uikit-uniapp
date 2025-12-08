@@ -67,7 +67,7 @@ const searchList = computed(() => {
 });
 
 const cancelSearch = () => {
-  uni.switchTab({
+  uni.redirectTo({
     url: "/ChatUIKit/modules/Conversation/index"
   });
 };
