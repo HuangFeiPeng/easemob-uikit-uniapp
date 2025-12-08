@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 // 定义路径
-const sourceDir = path.resolve(__dirname, '../ChatUIKit');
+const sourceDir = path.resolve(__dirname, '../../ChatUIKit');
 const targetDir = path.resolve(__dirname, './ChatUIKit');
 
 // 日志函数
