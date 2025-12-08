@@ -3,7 +3,7 @@ const SERVER_CONFIG_STORE = "serverConfig";
 
 const serverConfig = uni.getStorageSync(SERVER_CONFIG_STORE) || {};
 const IS_USE_CUSTOM_SERVER = serverConfig.isUseCustomServer || false; // 是否使用自定义服务器
-const APPKEY = serverConfig.appkey || "your#appkey"; // 环信appkey
+const APPKEY = serverConfig.appkey || "easemob-demo#support"; // 环信appkey
 // 例如: https://a1.easemob.com
 const API_URL = serverConfig.restUrl || "https://a1.easemob.com"; // 环信api地址 
 // 例如: wss://im-api-wechat.easemob.com/websocket 

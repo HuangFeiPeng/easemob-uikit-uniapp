@@ -9,7 +9,7 @@ export { default as MessageStore } from "./store/message";
 export { default as ConfigStore } from "./store/config";
 
 // 类型导出
-export { ChatUIKitInitParams, FeatureConfig } from "./configType";
+export type { ChatUIKitInitParams, FeatureConfig } from "./configType";
 
 // 日志工具
 export { logger } from "./log";
